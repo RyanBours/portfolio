@@ -1,5 +1,5 @@
-import ProjectCard from '@/components/ProjectCard'
-import { Footer } from '@/components/Footer'
+import ProjectCard from '@/components/ProjectCard';
+import { Footer } from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
       </main>
       <Footer />
     </>
-  )
+  );
 }
 
 // MARK: About Section
@@ -26,8 +26,8 @@ const AboutSection = () => {
         problems.
       </p>
     </section>
-  )
-}
+  );
+};
 
 // MARK: Skills Section
 const SkillsSection = () => {
@@ -400,8 +400,8 @@ const SkillsSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 // MARK: Projects Section
 const ProjectsSection = () => {
@@ -521,8 +521,8 @@ const ProjectsSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 // MARK: Contact Section
 const ContactSection = () => {
@@ -534,6 +534,6 @@ const ContactSection = () => {
         <a href="mailto:[email protected]">[email protected]</a>.
       </p>
     </section>
-  )
-}
+  );
+};
 
