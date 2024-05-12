@@ -527,12 +527,16 @@ const ProjectsSection = () => {
 // MARK: Contact Section
 const ContactSection = () => {
   return (
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        You can reach me at{' '}
-        <a href="mailto:[email protected]">[email protected]</a>.
-      </p>
+    <section id="contact" className='mt-16 p-8'>
+      <div className="text-left">
+        <h2 className="text-3xl text-gray-950 dark:text-white font-semibold">Contact me</h2>
+      </div>
+      <a href="mailto:ryan.bours@gmail.com" className='mt-2 pl-4 flex text-gray-950  dark:text-white'>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+        </svg>
+        <span className='ml-2'>ryan.bours@gmail.com</span>
+      </a>
     </section>
   );
 };
