@@ -410,7 +410,7 @@ const ProjectsSection = () => {
       <div className="mx-auto px-6 max-w-6xl text-gray-500">
         <div className="text-center">
           <h2 className="text-3xl text-gray-950 dark:text-white font-semibold">Projects</h2>
-          <p className="mt-6 text-gray-700 dark:text-gray-300">Want to check out some some of the projects I've worked then you're at the right place!</p>
+          <p className="mt-6 text-gray-700 dark:text-gray-300">Want to check out some some of the projects I&apos;ve worked then you&apos;re at the right place!</p>
         </div>
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           <div className="relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
