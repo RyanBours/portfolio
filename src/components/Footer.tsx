@@ -2,7 +2,7 @@ import { IconBitbucket, IconGithub } from '@/components/Icons';
 
 export function Footer({}) {
     const githubUrl = 'https://github.com/RyanBours';
-    const bitbucketUrl = 'https://bitbucket.org/RyanBours/workspace/overview/';
+    const bitbucketUrl = 'https://bitbucket.org/RyanBours/workspace/repositories';
     return (
         <footer className="fixed inset-x-0 bottom-0 p-5 flex">
             <div className="flex justify-between w-full">
