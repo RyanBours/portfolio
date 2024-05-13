@@ -132,7 +132,7 @@ export const IconPostgres = () => (
 );
 
 export const IconVercel = () => (
-    <Image width={20} height={20} src="\Vercel.svg" alt="vercel-logo" />
+    <Image width={20} height={20} src="\vercel.svg" alt="vercel-logo" />
 );
 
 export const IconThree = () => (
