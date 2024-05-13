@@ -90,3 +90,11 @@ export const IconTailwind = () => (
 export const IconGPT = () => (
     <Image width={20} height={20} src="\chatgpt-6.svg" alt="gpt-logo" />
 );
+
+export const IconCsharp = () => (
+    <Image width={20} height={20} src="\csharp.svg" alt="csharp-logo" />
+);
+
+export const IconLua = () => (
+    <Image width={20} height={20} src="\lua.svg" alt="lua-logo" />
+);
