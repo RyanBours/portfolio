@@ -178,3 +178,7 @@ export const IconPandas = () => (
 export const IconMathplotlib = () => (
     <Image width={20} height={20} src="\matplotlib.svg" alt="matplotlib-logo" />
 );
+
+export const IconSass = () => (
+    <Image width={20} height={20} src="\Sass.svg" alt="sass-logo" />
+);
