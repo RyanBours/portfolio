@@ -1,6 +1,6 @@
 import ProjectCard, { ProjectRepoIcon } from '@/components/ProjectCard';
 import { Footer } from '@/components/Footer';
-import { IconAzure, IconBootstrap, IconBun, IconCsharp, IconGPT, IconGoogleCloud, IconGraphQL, IconJavascript, IconJquery, IconKubernetes, IconLangchain, IconLaravel, IconLua, IconMQTT, IconMathplotlib, IconMySQL, IconNestjs, IconNextjs, IconOnnx, IconPHP, IconPandas, IconPinecone, IconPostgres, IconPrisma, IconPython, IconReact, IconRust, IconSass, IconSciKitLearn, IconSvelte, IconTailwind, IconTauri, IconTensorflow, IconTerraform, IconThree, IconTypescript, IconVercel } from '@/components/Icons';
+import { IconAzure, IconBootstrap, IconBun, IconCsharp, IconGPT, IconGoogleCloud, IconGraphQL, IconJavascript, IconJquery, IconKubernetes, IconLangchain, IconLaravel, IconLua, IconMQTT, IconMathplotlib, IconMySQL, IconNestjs, IconNextjs, IconNodeJs, IconOnnx, IconPHP, IconPandas, IconPinecone, IconPostgres, IconPrisma, IconPython, IconReact, IconRust, IconSass, IconSciKitLearn, IconSvelte, IconTailwind, IconTauri, IconTensorflow, IconTerraform, IconThree, IconTypescript, IconVercel } from '@/components/Icons';
 import { Skill, SkillProficiency } from '@/components/Skill';
 import Image from 'next/image';
 
@@ -21,51 +21,132 @@ export default function Home() {
 // MARK: About Section
 const AboutSection = () => {
   return (
-    <section id='about' className='w-full bg-gray-200 dark:bg-gray-800'>
-      <div className="flex flex-col md:flex-row items-center max-w-6xl px-6 py-8 mx-auto">
-        <div className="w-full md:w-2/3 py-8">
-          <h1 className="text-7xl font-semibold leading-none tracking-tighter">
-            Hello, <br /> <span className='bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text text-transparent'>I&apos;m Ryan Bours</span> <br /><span className="text-blue-500">Software Developer <br /></span> <span className='text-4xl dark:text-orange-300 text-orange-500'>from the Netherlands.</span>
-          </h1>
-        </div>
-        <div className="w-full md:w-1/3 py-8">
-          <Image className='profile-image' src="/profile.jpg" width={248} height={248} alt="A picture of me(Ryan Bours)" />
+    <section id='about' className='w-full'>
+      <div className=' bg-gray-200 dark:bg-gray-800'>
+        <div className="flex flex-col md:flex-row items-center max-w-6xl px-6 py-8 mx-auto">
+          <div className="w-full md:w-2/3 py-8">
+            <h1 className="text-7xl font-semibold leading-none tracking-tighter">
+              Hello, <br /> <span className='bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text text-transparent'>I&apos;m Ryan Bours</span> <br /><span className="text-blue-500">Software Developer <br /></span> <span className='text-4xl dark:text-orange-300 text-orange-500'>from the Netherlands.</span>
+            </h1>
+            <p>🗣️: Dutch & English</p>
+          </div>
+          <div className="w-full md:w-1/3 py-8">
+            <Image className='profile-image' src="/profile.jpg" width={248} height={248} alt="A picture of me(Ryan Bours)" />
+          </div>
         </div>
       </div>
 
-      {/* rough notes: */}
-      {/* 
+      <div className="text-center mt-8">
+        <h2 className="text-3xl text-gray-950 dark:text-white font-semibold">About Me</h2>
+        <div className='grid grid-cols-4 gap-4 p-4'>
+          {/* <div className='col-span-1 p-10 text-gray-500 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+            <span className="text-gray-950 dark:text-white font-semibold">Languages</span>
+            <ul className='list-disc list-inside'>
+              <li>Dutch</li>
+              <li>English</li>
+            </ul>
+          </div> */}
+          <div className='col-span-1 p-10 text-gray-500 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+            <span className="text-gray-950 dark:text-white font-semibold">Main Skills</span>
+            <div className='[&>*]:size-12 flex gap-4 justify-center mx-auto w-full'>
+              <IconTypescript />
+              <IconJavascript />
+              <IconNodeJs />
+            </div>
+          </div>
 
-        profile picture
-        name
-        future Job title
-        short description
+          <div className='col-span-3 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+            <p className='text-gray-950 dark:text-white font-base text-justify'>
+              Hello, my name is Ryan Bours and I&apos;m a 4th year Bachelor ICT student at Fontys University of Applied Sciences in Eindhoven, The Netherlands.
+              I&apos;m currently specializing in Software Engineering and Artificial Intelligence.
+              I enjoy working on projects that challenge me to learn new things and solve interesting problems.
+            </p>
+          </div>
 
-        Hoihoi, my name is Ryan Bours 
-        I enjoy working on projects that challenge me to learn new things and solve interesting problems.
-        languages:
-        - Dutch
-        - English
+          <div className='col-span-2 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+            <span className="text-gray-950 dark:text-white font-semibold">Educations</span>
 
-        education:
-        Bachelor of ICT Software Engineering
-        profile: Software/AI
-        Fontys University of Applied Sciences
-        Eindhoven, The Netherlands
+            <ul className="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
+              <li className="pb-3 sm:pb-4">
+                <div className="flex items-center space-x-4 rtl:space-x-reverse">
+                  <div className="flex-shrink-0">
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      B Information & Communication Technology
+                    </p>
+                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                      Fontys University of Applied Sciences, Eindhoven - The Netherlands.
+                    </p>
+                  </div>
+                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                    2020 - now!
+                  </div>
+                </div>
+              </li>
+              <li className="py-3 sm:py-4">
+                <div className="flex items-center space-x-4 rtl:space-x-reverse">
+                  <div className="flex-shrink-0">
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      MBO4 Application- / Media developer
+                    </p>
+                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                      VISTA College, Sittard - The Netherlands.
+                    </p>
+                  </div>
+                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                    2016 - 2020
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-        mbo4
-        Application- and Media Developer
-        Vista College
-        Sittard, The Netherlands
+          <div className='col-span-2 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+            <span className="text-gray-950 dark:text-white font-semibold">Employment History</span>
 
-        work experience:
-        - Mediaan
-        - Selexions
+            <ul className="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
+              <li className="pb-3 sm:pb-4">
+                <div className="flex items-center space-x-4 rtl:space-x-reverse">
+                  <div className="flex-shrink-0">
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      Intern Software Developer
+                    </p>
+                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                      Mediaan, Heerlen - The Netherlands.
+                    </p>
+                  </div>
+                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                    Feb 2023 - Jul 2023
+                  </div>
+                </div>
+              </li>
+              <li className="py-3 sm:py-4">
+                <div className="flex items-center space-x-4 rtl:space-x-reverse">
+                  <div className="flex-shrink-0">
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-gray-900 truncate dark:text-white">
+                      Intern Software Developer
+                    </p>
+                    <p className="text-sm text-gray-500 truncate dark:text-gray-400">
+                      Selexions, Geleen - The Netherlands.
+                    </p>
+                  </div>
+                  <div className="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                    Feb 2019 - Feb 2020
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-
-        bento grid ??
-
-      */}
+        </div>
+      </div>
     </section>
   );
 };

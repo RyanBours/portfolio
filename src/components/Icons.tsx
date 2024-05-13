@@ -182,3 +182,7 @@ export const IconMathplotlib = () => (
 export const IconSass = () => (
     <Image width={20} height={20} src="\Sass.svg" alt="sass-logo" />
 );
+
+export const IconNodeJs = () => (
+    <Image width={20} height={20} src="\nodejs-icon.svg" alt="node-logo" />
+);
