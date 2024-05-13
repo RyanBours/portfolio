@@ -51,7 +51,43 @@ const SkillsSection = () => {
         <Skill name="Rust" proficiency={SkillProficiency.Beginner} icon={IconRust} />
       </div>
 
+      <div className='mt-8'>
+        <div className="text-center">
+          <h2 className="text-2xl text-gray-950 dark:text-white font-semibold">Familiar Technology</h2>
+          <p className="mt-6 mb-4 text-gray-700 dark:text-gray-300">Some technologies that I&apos;ve worked with before.</p>
+        </div>
 
+        <div className='space-x-7 flex flex-wrap'>
+          <div>Tailwind</div>
+          <div>Kubernetes</div>
+          <div>MQTT</div>
+          <div>NextJS</div>
+          <div>Terraform</div>
+          <div>SonarCube</div>
+          <div>NestJS</div>
+          <div>ArgoCD</div>
+          <div>Pinecone</div>
+          <div>Tauri</div>
+          <div>Azure</div>
+          <div>Google Cloud</div>
+          <div>Express.js</div>
+          <div>SQL\NoSQL</div>
+          <div>Tensorflow</div>
+          <div>Prisma</div>
+          <div>Sci-kit</div>
+          <div>Langchain</div>
+          <div>GQL(Federation)</div>
+          <div>Pinecone</div>
+          <div>Tailwind</div>
+          <div>MQTT</div>
+          <div>Laravel</div>
+          <div>Github Actions</div>
+          <div>Bitbucket Pipelines</div>
+          <div>Figma</div>
+          <div>Express</div>
+        </div>
+
+      </div>
     </section>
   );
 };
