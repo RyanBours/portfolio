@@ -1,6 +1,6 @@
 import ProjectCard, { ProjectRepoIcon } from '@/components/ProjectCard';
 import { Footer } from '@/components/Footer';
-import { IconCsharp, IconGPT, IconJavascript, IconLangchain, IconLua, IconNestjs, IconNextjs, IconOnnx, IconPinecone, IconPrisma, IconPython, IconReact, IconRust, IconTailwind, IconTauri, IconTensorflow, IconTypescript } from '@/components/Icons';
+import { IconAzure, IconBootstrap, IconBun, IconCsharp, IconGPT, IconGoogleCloud, IconGraphQL, IconJavascript, IconJquery, IconKubernetes, IconLangchain, IconLaravel, IconLua, IconMQTT, IconMySQL, IconNestjs, IconNextjs, IconOnnx, IconPHP, IconPinecone, IconPostgres, IconPrisma, IconPython, IconReact, IconRust, IconSvelte, IconTailwind, IconTauri, IconTensorflow, IconTerraform, IconThree, IconTypescript, IconVercel } from '@/components/Icons';
 import { Skill, SkillProficiency } from '@/components/Skill';
 
 export default function Home() {
@@ -27,6 +27,25 @@ const AboutSection = () => {
         on projects that challenge me to learn new things and solve interesting
         problems.
       </p>
+
+      {/* rough notes: */}
+      {/* 
+
+        profile picture
+        name
+        future Job title
+        short description
+
+        Bachelor of ICT Software Engineering
+        profile: Software/AI
+        Fontys University of Applied Sciences
+        Eindhoven, Netherlands
+
+        I enjoy working on projects that challenge me to learn new things and solve interesting problems.
+
+        bento grid ??
+
+      */}
     </section>
   );
 };
@@ -105,11 +124,16 @@ const ProjectsSection = () => {
         </div>
 
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          <ProjectCard name="multi tenant llm powered faq chatbot platform" link="https://www.fontysictinnovationlab.nl/innovations-insight/ict-software-engineering/multi-tenant-llm-powered-faq-chatbot-platform/" description="Fullstack app that allows the creation of multiple chatbots within minutes, using composable pipelines that gather data from multiple different knowledge sources. A CY2 Collaboration." repoIcon={null} icons={[IconReact, IconNestjs, IconPinecone, IconLangchain, IconPrisma, IconJavascript, IconGPT]} />
+          <ProjectCard name="multi tenant llm powered faq chatbot platform" link="https://www.fontysictinnovationlab.nl/innovations-insight/ict-software-engineering/multi-tenant-llm-powered-faq-chatbot-platform/" description="Fullstack app that allows the creation of multiple chatbots within minutes, using composable pipelines that gather data from multiple different knowledge sources. A CY2 Collaboration." repoIcon={null} icons={[IconReact, IconNestjs, IconPinecone, IconLangchain, IconPrisma, IconJavascript, IconGPT, IconAzure, IconPostgres]} />
           <ProjectCard name="Kanji2Search" link="https://bitbucket.org/RyanBours/kanji2search-ml/src/development/" description="AI powered desktop app, that can recognize Kanji character from hand drawn images." repoIcon={ProjectRepoIcon.Bitbucket} icons={[IconReact, IconRust, IconTauri, IconTensorflow, IconOnnx, IconTypescript, IconPython, IconTailwind]} />
-          <ProjectCard name="Test" link="#" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada suscipit eros tempor sodales." repoIcon={ProjectRepoIcon.Github} icons={[IconReact]} />
-          <ProjectCard name="Test" link="#" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada suscipit eros tempor sodales." repoIcon={null} icons={[IconReact]} />
-          <ProjectCard name="Portfolio" link="https://github.com/RyanBours/portfolio" description="Lastly, my portfolio itself!" repoIcon={ProjectRepoIcon.Github} icons={[IconReact, IconNextjs, IconTailwind]} />
+          <ProjectCard name="MLSaaS" link="https://github.com/RyanBours/MLSaaS" description="6th Semester Advanced Software project. Microservice designed application, made to simplify interactions with AI models." repoIcon={ProjectRepoIcon.Github} icons={[IconNextjs, IconGraphQL, IconReact, IconTypescript, IconNestjs, IconPrisma, IconGoogleCloud, IconTerraform, IconKubernetes]} />
+          <ProjectCard name="[WIP] Generative projected texture mapping" description='7th Semester Advanced AI project. Generate textures for games assets using only text tags and a depth image of the target asset.' link='#' repoIcon={null} icons={[IconTauri, IconReact, IconThree, IconTailwind, IconTensorflow, IconPython]} />
+          <ProjectCard name="Eagle-CBZ-Reader-plugin" link="https://github.com/RyanBours/Eagle-CBZ-Reader-plugin" description="Eagle tool plugin, that allows you to read cbz files from within the application." repoIcon={ProjectRepoIcon.Github} icons={[IconJavascript]} />
+          <ProjectCard name="LGTM-reader" link='https://github.com/RyanBours/lgtm-reader' description='A standalone CBZ reader. The predecessor of the Eagle plugin.' repoIcon={ProjectRepoIcon.Github} icons={[IconTauri, IconRust, IconSvelte, IconTailwind, IconJavascript, IconMQTT]} />
+          <ProjectCard name="Agricultural sensor management Dashboard" link='#' description='Mediaan internship project. A fullstack application for the management of agricultural sensors. real-time data insights and custom rule alerts.' repoIcon={null} icons={[IconTypescript, IconPrisma, IconGraphQL, IconTerraform, IconAzure, IconTailwind]} />
+          <ProjectCard name="Lenin" link='https://github.com/RyanBours/lenin' description='Fullstack inventory and borrwing management system' repoIcon={ProjectRepoIcon.Github} icons={[IconLaravel, IconPHP, IconJavascript, IconJquery, IconBootstrap, IconMySQL]} />
+          <ProjectCard name="NNNext.click" link='https://bitbucket.org/RyanBours/nnnext/src/master/' description='A fullstack application where users can slide based guides like WikiHow.' repoIcon={ProjectRepoIcon.Bitbucket} icons={[IconLaravel, IconPHP, IconJavascript, IconJquery, IconBootstrap, IconMySQL]} />
+          <ProjectCard name="Portfolio" link="https://github.com/RyanBours/portfolio" description="Lastly, my portfolio itself!" repoIcon={ProjectRepoIcon.Github} icons={[IconReact, IconNextjs, IconTailwind, IconTypescript, IconBun, IconVercel]} />
         </div>
       </div>
     </section>

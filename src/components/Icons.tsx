@@ -98,3 +98,71 @@ export const IconCsharp = () => (
 export const IconLua = () => (
     <Image width={20} height={20} src="\lua.svg" alt="lua-logo" />
 );
+
+export const IconGraphQL = () => (
+    <Image width={20} height={20} src="\graphql-logo-2.svg" alt="graphql-logo" />
+);
+
+export const IconGoogleCloud = () => (
+    <Image width={20} height={20} src="\google-cloud-1.svg" alt="google-cloud-logo" />
+);
+
+export const IconTerraform = () => (
+    <Image width={20} height={20} src="\terraform-enterprise.svg" alt="terraform-logo" />
+);
+
+export const IconKubernetes = () => (
+    <Image width={20} height={20} src="\kubernets.svg" alt="kubernetes-logo" />
+);
+
+export const IconArgoCD = () => (
+    <Image width={20} height={20} src="\Argo CD.svg" alt="argo-cd-logo" />
+);
+
+export const IconBun = () => (
+    <Image width={20} height={20} src="\Bun.svg" alt="bun-logo" />
+);
+
+export const IconAzure = () => (
+    <Image width={20} height={20} src="\Azure.svg" alt="azure-logo" />
+);
+
+export const IconPostgres = () => (
+    <Image width={20} height={20} src="\PostgresSQL.svg" alt="postgres-logo" />
+);
+
+export const IconVercel = () => (
+    <Image width={20} height={20} src="\Vercel.svg" alt="vercel-logo" />
+);
+
+export const IconThree = () => (
+    <Image width={20} height={20} src="\Three.js.svg" alt="three-logo" />
+);
+
+export const IconSvelte = () => (
+    <Image width={20} height={20} src="\Svelte.svg" alt="svelte-logo" />
+);
+
+export const IconLaravel = () => (
+    <Image width={20} height={20} src="\Laravel.svg" alt="laravel-logo" />
+);
+
+export const IconPHP = () => (
+    <Image width={20} height={20} src="\PHP.svg" alt="php-logo" />
+);
+
+export const IconJquery = () => (
+    <Image width={20} height={20} src="\jQuery.svg" alt="jquery-logo" />
+);
+
+export const IconBootstrap = () => (
+    <Image width={20} height={20} src="\Bootstrap.svg" alt="bootstrap-logo" />
+);
+
+export const IconMQTT = () => (
+    <Image width={20} height={20} src="\mosquitto-logo-min.svg" alt="mqtt-logo" />
+);
+
+export const IconMySQL = () => (
+    <Image width={20} height={20} src="\MySQL.svg" alt="mysql-logo" />
+);
