@@ -1,6 +1,6 @@
 import ProjectCard, { ProjectRepoIcon } from '@/components/ProjectCard';
 import { Footer } from '@/components/Footer';
-import { IconLangchain, IconNestjs, IconPinecone, IconPrisma, IconReact } from '@/components/Icons';
+import { IconGPT, IconJavascript, IconLangchain, IconNestjs, IconOnnx, IconPinecone, IconPrisma, IconPython, IconReact, IconRust, IconTailwind, IconTauri, IconTensorflow, IconTypescript } from '@/components/Icons';
 
 export default function Home() {
   return (
@@ -414,8 +414,8 @@ const ProjectsSection = () => {
           <p className="mt-6 text-gray-700 dark:text-gray-300">Want to check out some of the projects I&apos;ve worked then you&apos;re at the right place!</p>
         </div>
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          <ProjectCard name="multi tenant llm powered faq chatbot platform" link="https://www.fontysictinnovationlab.nl/innovations-insight/ict-software-engineering/multi-tenant-llm-powered-faq-chatbot-platform/" description="Fullstack app that allows the creation of multiple chatbots within minutes, using composable pipelines that gather data from multiple different knowledge sources. A CY2 Collaboration." repoIcon={null} icons={[IconReact, IconNestjs, IconPinecone, IconLangchain, IconPrisma]} />
-          <ProjectCard name="Test" link="#" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada suscipit eros tempor sodales." repoIcon={ProjectRepoIcon.Bitbucket} icons={[IconReact]} />
+          <ProjectCard name="multi tenant llm powered faq chatbot platform" link="https://www.fontysictinnovationlab.nl/innovations-insight/ict-software-engineering/multi-tenant-llm-powered-faq-chatbot-platform/" description="Fullstack app that allows the creation of multiple chatbots within minutes, using composable pipelines that gather data from multiple different knowledge sources. A CY2 Collaboration." repoIcon={null} icons={[IconReact, IconNestjs, IconPinecone, IconLangchain, IconPrisma, IconJavascript, IconGPT]} />
+          <ProjectCard name="Kanji2Search" link="https://bitbucket.org/RyanBours/kanji2search-ml/src/development/" description="AI powered desktop app, that can recognize Kanji character from hand drawn images." repoIcon={ProjectRepoIcon.Bitbucket} icons={[IconReact, IconRust, IconTauri, IconTensorflow, IconOnnx, IconTypescript, IconPython, IconTailwind]} />
           <ProjectCard name="Test" link="#" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada suscipit eros tempor sodales." repoIcon={ProjectRepoIcon.Github} icons={[IconReact]} />
           <ProjectCard name="Test" link="#" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada suscipit eros tempor sodales." repoIcon={null} icons={[IconReact]} />
           <ProjectCard name="Test" link="#" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam malesuada suscipit eros tempor sodales." repoIcon={null} icons={[IconReact]} />

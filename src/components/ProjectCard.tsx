@@ -16,6 +16,7 @@ interface ProjectProps {
 };
 
 export default function ProjectCard({ name, description, link, icons, repoIcon }: Readonly<ProjectProps>) {
+    // Mabye rework using {children} instead of an array of icons
     const repoIconMap = new Map([
         [ProjectRepoIcon.Github, IconGithub],
         [ProjectRepoIcon.Bitbucket, IconBitbucket]
