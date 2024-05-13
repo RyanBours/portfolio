@@ -60,3 +60,7 @@ footer a {
   width: 20px;
   height: 20px;
 }
+
+.profile-image {
+  border-radius: 65% 35% 65% 35% / 25% 80% 20% 75%;
+}
