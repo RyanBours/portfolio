@@ -50,3 +50,13 @@ footer a {
   text-decoration: none;
   color: var(--accent);
 }
+
+.project-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.project-icon img {
+  width: 20px;
+  height: 20px;
+}
