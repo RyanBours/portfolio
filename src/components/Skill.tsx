@@ -46,7 +46,7 @@ export const Skill = ({ icon, name, proficiency }: SkillProp) => {
     };
 
     return (
-        <div className="flex items-center py-3 border-t border-gray-100">
+        <div className="flex items-center py-3">
             <span
                 className="w-8 h-8 shrink-0 mr-4 rounded-full bg-blue-50 flex items-center justify-center"
             >
