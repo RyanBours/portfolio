@@ -41,7 +41,7 @@ const AboutSection = () => {
       <div className="text-center mt-8">
         <h2 className="text-3xl text-gray-950 dark:text-white font-semibold">About Me</h2>
         <div className='grid grid-cols-4 gap-4 p-4 md:px-16 lg:px-32'>
-          <div className='col-span-1 p-10 text-gray-500 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+          <div className='col-span-4 md:col-span-1 p-10 text-gray-500 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <span className="text-gray-950 dark:text-white font-semibold">Main Skills</span>
             <div className='[&>*]:size-12 flex gap-4 justify-center mx-auto w-full'>
               <IconTypescript />
@@ -50,7 +50,7 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className='col-span-3 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+          <div className='col-span-4 md:col-span-3 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <p className='text-gray-950 dark:text-white font-base text-justify'>
               Hello, my name is Ryan Bours and I&apos;m a 4th year Bachelor ICT student at Fontys University of Applied Sciences in Eindhoven, The Netherlands.
               I&apos;m currently specializing in Software Engineering and Artificial Intelligence.
@@ -58,7 +58,7 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className='col-span-2 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+          <div className='col-span-4 md:col-span-2 h-min-32 text-gray-500 p-4 md:p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <span className="text-gray-950 dark:text-white font-semibold">Educations</span>
 
             <ul className="mx-auto max-w-md divide-y divide-gray-200 dark:divide-gray-700">
@@ -99,7 +99,7 @@ const AboutSection = () => {
             </ul>
           </div>
 
-          <div className='col-span-2 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
+          <div className='col-span-4 md:col-span-2 h-min-32 text-gray-500 p-4 md:p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <span className="text-gray-950 dark:text-white font-semibold">Employment History</span>
 
             <ul className="mx-auto max-w-md divide-y divide-gray-200 dark:divide-gray-700">
@@ -156,7 +156,7 @@ const SkillsSection = () => {
         <p className="mt-6 text-gray-700 dark:text-gray-300">In case you where wondering what my skill are, here you go!</p>
       </div>
 
-      <div className="mx-6 mt-12 text-gray-500 py-4 grid grid-cols-2 gap-x-6 relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+      <div className="mx-6 mt-12 text-gray-500 py-4 grid md:grid-cols-2 gap-x-6 relative group overflow-hidden p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
         <Skill name="TypeScript" proficiency={SkillProficiency.Advanced} icon={IconTypescript} />
         <Skill name="JavaScript" proficiency={SkillProficiency.Advanced} icon={IconJavascript} />
         <Skill name="React" proficiency={SkillProficiency.Intermediate} icon={IconReact} />
