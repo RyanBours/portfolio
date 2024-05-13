@@ -40,7 +40,7 @@ const AboutSection = () => {
 
       <div className="text-center mt-8">
         <h2 className="text-3xl text-gray-950 dark:text-white font-semibold">About Me</h2>
-        <div className='grid grid-cols-4 gap-4 p-4'>
+        <div className='grid grid-cols-4 gap-4 p-4 md:px-16 lg:px-32'>
           <div className='col-span-1 p-10 text-gray-500 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <span className="text-gray-950 dark:text-white font-semibold">Main Skills</span>
             <div className='[&>*]:size-12 flex gap-4 justify-center mx-auto w-full'>
