@@ -166,3 +166,15 @@ export const IconMQTT = () => (
 export const IconMySQL = () => (
     <Image width={20} height={20} src="\MySQL.svg" alt="mysql-logo" />
 );
+
+export const IconSciKitLearn = () => (
+    <Image width={20} height={20} src="\scikit-learn.svg" alt="scikit-learn-logo" />
+);
+
+export const IconPandas = () => (
+    <Image width={20} height={20} src="\pandas.svg" alt="pandas-logo" />
+);
+
+export const IconMathplotlib = () => (
+    <Image width={20} height={20} src="\matplotlib.svg" alt="matplotlib-logo" />
+);
