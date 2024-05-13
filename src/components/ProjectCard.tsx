@@ -28,7 +28,7 @@ export default function ProjectCard({ name, description, link, icons, repoIcon }
                 <div className='flex justify-between'>
                     <h1 className='text-xl text-gray-950  dark:text-white'><a href={link}>{name}</a></h1>
                     {repoIcon != null ? (
-                        <a className="min-w-8 min-h-8 size-8 project-icon group flex items-center rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 justify-center">
+                        <a href={link} className="min-w-8 min-h-8 size-8 project-icon group flex items-center rounded-xl disabled:border *:select-none [&>*:not(.sr-only)]:relative *:disabled:opacity-20 disabled:text-gray-950 disabled:border-gray-200 disabled:bg-gray-100 dark:disabled:border-gray-800/50 disabled:dark:bg-gray-900 dark:*:disabled:!text-white text-gray-950 bg-gray-100 hover:bg-gray-200/75 active:bg-gray-100 dark:text-white dark:bg-gray-500/10 dark:hover:bg-gray-500/15 dark:active:bg-gray-500/10 justify-center">
                             {repoIconMap.get(repoIcon)?.()}
                         </a>
                     ) : <>private repository</>}
