@@ -24,12 +24,12 @@ const AboutSection = () => {
     <section id='about' className='w-full bg-gray-200 dark:bg-gray-800'>
       <div className="flex flex-col md:flex-row items-center max-w-6xl px-6 py-8 mx-auto">
         <div className="w-full md:w-2/3 py-8">
-          <h1 className="text-purple-900 text-7xl font-semibold leading-none tracking-tighter">
-            Hello, <br /> I&apos;m Ryan Bours <br /><span className="text-blue-500">Software Developer <br /></span> <span className='text-4xl text-orange-300'>from the Netherlands.</span>
+          <h1 className="text-7xl font-semibold leading-none tracking-tighter">
+            Hello, <br /> <span className='bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text text-transparent'>I&apos;m Ryan Bours</span> <br /><span className="text-blue-500">Software Developer <br /></span> <span className='text-4xl dark:text-orange-300 text-orange-500'>from the Netherlands.</span>
           </h1>
         </div>
         <div className="w-full md:w-1/3 py-8">
-          <Image src="/profile.jpg" width={248} height={248} alt="A picture of me(Ryan Bours)" />
+          <Image className='profile-image' src="/profile.jpg" width={248} height={248} alt="A picture of me(Ryan Bours)" />
         </div>
       </div>
 
