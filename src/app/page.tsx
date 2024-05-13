@@ -28,7 +28,9 @@ const AboutSection = () => {
             <h1 className="text-7xl font-semibold leading-none tracking-tighter">
               Hello, <br /> <span className='bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text text-transparent'>I&apos;m Ryan Bours</span> <br /><span className="text-blue-500">Software Developer <br /></span> <span className='text-4xl dark:text-orange-300 text-orange-500'>from the Netherlands.</span>
             </h1>
-            <p>🗣️: Dutch & English</p>
+            <p className='flex'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
+            </svg>: Dutch & English</p>
           </div>
           <div className="w-full md:w-1/3 py-8">
             <Image className='profile-image' src="/profile.jpg" width={248} height={248} alt="A picture of me(Ryan Bours)" />
@@ -39,13 +41,6 @@ const AboutSection = () => {
       <div className="text-center mt-8">
         <h2 className="text-3xl text-gray-950 dark:text-white font-semibold">About Me</h2>
         <div className='grid grid-cols-4 gap-4 p-4'>
-          {/* <div className='col-span-1 p-10 text-gray-500 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
-            <span className="text-gray-950 dark:text-white font-semibold">Languages</span>
-            <ul className='list-disc list-inside'>
-              <li>Dutch</li>
-              <li>English</li>
-            </ul>
-          </div> */}
           <div className='col-span-1 p-10 text-gray-500 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <span className="text-gray-950 dark:text-white font-semibold">Main Skills</span>
             <div className='[&>*]:size-12 flex gap-4 justify-center mx-auto w-full'>
@@ -66,7 +61,7 @@ const AboutSection = () => {
           <div className='col-span-2 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <span className="text-gray-950 dark:text-white font-semibold">Educations</span>
 
-            <ul className="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
+            <ul className="mx-auto max-w-md divide-y divide-gray-200 dark:divide-gray-700">
               <li className="pb-3 sm:pb-4">
                 <div className="flex items-center space-x-4 rtl:space-x-reverse">
                   <div className="flex-shrink-0">
@@ -107,7 +102,7 @@ const AboutSection = () => {
           <div className='col-span-2 h-min-32 text-gray-500 p-8 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900'>
             <span className="text-gray-950 dark:text-white font-semibold">Employment History</span>
 
-            <ul className="max-w-md divide-y divide-gray-200 dark:divide-gray-700">
+            <ul className="mx-auto max-w-md divide-y divide-gray-200 dark:divide-gray-700">
               <li className="pb-3 sm:pb-4">
                 <div className="flex items-center space-x-4 rtl:space-x-reverse">
                   <div className="flex-shrink-0">
