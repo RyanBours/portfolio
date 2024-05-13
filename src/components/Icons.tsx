@@ -172,11 +172,11 @@ export const IconSciKitLearn = () => (
 );
 
 export const IconPandas = () => (
-    <Image width={20} height={20} src="\pandas.svg" alt="pandas-logo" />
+    <Image width={20} height={20} src="\Pandas.svg" alt="pandas-logo" />
 );
 
 export const IconMathplotlib = () => (
-    <Image width={20} height={20} src="\matplotlib.svg" alt="matplotlib-logo" />
+    <Image width={20} height={20} src="\Matplotlib.svg" alt="matplotlib-logo" />
 );
 
 export const IconSass = () => (
