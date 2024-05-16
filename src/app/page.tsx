@@ -194,16 +194,14 @@ const SkillsSection = () => {
           <div>GQL(Federation)</div>
           <div>Pinecone</div>
           <div>Tailwind</div>
-          <div>MQTT</div>
           <div>Laravel</div>
           <div>Github Actions</div>
           <div>Bitbucket Pipelines</div>
           <div>Figma</div>
           <div>Express</div>
-          <div>Yanr</div>
           <div>Three.js</div>
           <div>Bootstrap</div>
-          <div>pnpm</div>
+          <div>JQuery</div>
         </div>
 
       </div>
@@ -232,7 +230,7 @@ const ProjectsSection = () => {
           <ProjectCard name="LGTM-reader" link='https://github.com/RyanBours/lgtm-reader' description='A standalone CBZ reader. The predecessor of the Eagle plugin.' repoIcon={ProjectRepoIcon.Github} icons={[IconTauri, IconRust, IconSvelte, IconTailwind, IconJavascript, IconMQTT]} />
           <ProjectCard name="Agricultural sensor management Dashboard" link='#' description='Mediaan internship project. A fullstack application for the management of agricultural sensors. real-time data insights and custom rule alerts.' repoIcon={null} icons={[IconTypescript, IconPrisma, IconGraphQL, IconTerraform, IconAzure, IconTailwind]} />
           <ProjectCard name="AI Bird species classification" link='https://bitbucket.org/RyanBours/ai_bird_species/src/development/' description='ML Classification project, that aims to predict bird species from bone measurements.' repoIcon={ProjectRepoIcon.Bitbucket} icons={[IconPython, IconSciKitLearn, IconPandas, IconMathplotlib]} />
-          <ProjectCard name="Lenin" link='https://github.com/RyanBours/lenin' description='Fullstack inventory and borrwing management system' repoIcon={ProjectRepoIcon.Github} icons={[IconLaravel, IconPHP, IconJavascript, IconJquery, IconBootstrap, IconMySQL, IconSass]} />
+          <ProjectCard name="Lenin" link='https://github.com/RyanBours/lenin' description='Fullstack inventory and borrowing management system.' repoIcon={ProjectRepoIcon.Github} icons={[IconLaravel, IconPHP, IconJavascript, IconJquery, IconBootstrap, IconMySQL, IconSass]} />
           <ProjectCard name="NNNext.click" link='https://bitbucket.org/RyanBours/nnnext/src/master/' description='A fullstack application where users can slide based guides like WikiHow.' repoIcon={ProjectRepoIcon.Bitbucket} icons={[IconLaravel, IconPHP, IconJavascript, IconJquery, IconBootstrap, IconMySQL, IconSass]} />
           <ProjectCard name="Portfolio" link="https://github.com/RyanBours/portfolio" description="Lastly, my portfolio itself!" repoIcon={ProjectRepoIcon.Github} icons={[IconReact, IconNextjs, IconTailwind, IconTypescript, IconBun, IconVercel]} />
         </div>
